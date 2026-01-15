@@ -19,3 +19,5 @@ cat /etc/hosts | while read ip name; do
 	[ -z "$name" ] && continue
 	verificare_ip "$name" "$ip" "$DNS_SERVER"
 done
+
+
